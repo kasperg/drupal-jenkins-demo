@@ -1,0 +1,12 @@
+name = File test
+description = Provides hooks for testing File module functionality.
+package = Core
+version = VERSION
+core = 7.x
+hidden = TRUE
+
+; Information added by drupal.org packaging script on 2011-08-31
+version = "7.8"
+project = "drupal"
+datestamp = "1314817616"
+

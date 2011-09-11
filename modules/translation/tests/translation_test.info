@@ -1,0 +1,12 @@
+name = "Content Translation Test"
+description = "Support module for the content translation tests."
+core = 7.x
+package = Testing
+version = VERSION
+hidden = TRUE
+
+; Information added by drupal.org packaging script on 2011-08-31
+version = "7.8"
+project = "drupal"
+datestamp = "1314817616"
+

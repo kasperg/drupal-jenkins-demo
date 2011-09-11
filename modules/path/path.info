@@ -1,0 +1,13 @@
+name = Path
+description = Allows users to rename URLs.
+package = Core
+version = VERSION
+core = 7.x
+files[] = path.test
+configure = admin/config/search/path
+
+; Information added by drupal.org packaging script on 2011-08-31
+version = "7.8"
+project = "drupal"
+datestamp = "1314817616"
+
