@@ -2,7 +2,7 @@
  * ColorBox Core Style:
  * The following CSS is consistent between example themes and should not be altered.
  */
-#colorbox, #cboxOverlay, #cboxWrapper, {
+#colorbox, #cboxOverlay, #cboxWrapper {
   position: absolute;
   top: 0;
   left: 0;
