@@ -355,12 +355,13 @@ function _colorbox_admin_settings_check_plugin_path($form_element) {
 }
 
 /**
- * Enable the Colorbox load feature of the login links are set to open in a Colorbox.
+ * Enable the Colorbox load feature of the links are set to open in a Colorbox.
  */
-function _colorbox_admin_settings_login_links_load($form_element) {
+function _colorbox_admin_settings_links_load($form_element) {
   $login_links = $form_element['#value'];
   if ($login_links == 2) {
-    variable_set('colorbox_load', 1);
+    db_query("DELETE FROM {variable} WHERE name LIKE 'colorbox_load_" . $login_links . "'");
+    variable_set('colorbox_load_'.$login_links, 1);
   }
 
   return $form_element;

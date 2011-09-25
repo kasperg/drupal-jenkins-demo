@@ -10,7 +10,8 @@ Drupal.behaviors.initColorboxImageModule = {
       }
 
       // Find derivative
-      var matches = $img.attr('class').match(/image\-(\w+)/);
+      var class = $img.attr('class');
+      var matches = class.match(/image\-(\w+)/);
       if (matches === null) {
         return true;
       }
