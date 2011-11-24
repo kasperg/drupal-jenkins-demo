@@ -2,6 +2,8 @@
 
 Drupal Jenkins Demo is an example which shows how [Drupal](http://drupal.org) projects can use continuous integration, [Phing](http://www.phing.info/trac/) and [Jenkins](http://jenkins-ci.org/).
 
+[A Jenkins job for the project](http://jenkins.kasper.reload.dk:8080/job/drupal-demo/) has been setup using the [Jenkins job template for Drupal projects](http://reload.github.com/jenkins-drupal-template/).
+
 ## Contents
 * Drupal 7.8
 * [Token module](http://drupal.org/project/token): Used as an example module for static code analysis and unit tests
